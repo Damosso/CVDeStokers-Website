@@ -9,7 +9,6 @@ services:
     environment:
       - NODE_ENV=production
     restart: unless-stopped
-    pull_policy: always
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3000"]
       interval: 30s
