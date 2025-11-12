@@ -51,7 +51,11 @@
             <div class="relative z-10">
               <h2 class="text-3xl font-bold mb-4 text-stokers-red carnaval-title">Kom D'r Bij!</h2>
               <p class="text-white text-lg mb-6">
+<<<<<<< HEAD
                 Wil jij ok deel uitmaken van de meest feestelijke club van Rooi? 't Is keisimpel: ga bovenaan onze website naar 't aanmeldformulier 📝 en vur slechts enkele euro's per half jaar bende deel van de pret. Iedereen is welkom! 👋
+=======
+                Wil jij ok deel uitmaken van de meest feestelijke club van Rooi? 't Is keisimpel: ga bovenaan onze website naar 't aanmeldformulier 📝 en vur slechts een aantal euro's per half jaar bende deel van de pret. Iedereen is welkom! 👋
+>>>>>>> 5165439 (fix: update text for clarity in membership invitation)
               </p>
               <NuxtLink to="/lid-worden" class="inline-block bg-stokers-red text-white font-bold py-3 px-6 rounded hover:bg-red-700 transition-colors shadow-md">
                 Word Lid!
