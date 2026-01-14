@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
           {/* Logo Section */}
           <Link to="/" className="flex-shrink-0 flex items-center space-x-3 cursor-pointer">
             <div className="bg-white p-1 rounded-full shadow-md border-2 border-yellow-400 overflow-hidden">
-                <img src="/public/logo.png" alt="Logo" className="h-8 w-8 object-contain" />
+                <img src="logo.png" alt="Logo" className="h-8 w-8 object-contain" />
             </div>
             <span className="text-2xl font-bold tracking-wider text-yellow-500 dark:text-yellow-400 drop-shadow-sm">
               C.V. De Stokers

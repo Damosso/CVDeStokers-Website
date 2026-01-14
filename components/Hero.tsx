@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-white dark:bg-slate-800 border-[6px] border-yellow-400 shadow-[0_0_50px_rgba(250,204,21,0.3)] flex items-center justify-center overflow-hidden transition-colors duration-300">
            {/* Logo Image */}
            <img 
-            src="/public/logo.png" 
+            src="logo.png" 
             alt="C.V. De Stokers Logo" 
             className="w-full h-full object-contain p-2 hover:scale-110 transition-transform duration-700"
            />
