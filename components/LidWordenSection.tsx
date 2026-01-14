@@ -105,7 +105,7 @@ const LidWordenSection: React.FC = () => {
 
       <div className="mt-12 text-center">
         <p className="text-slate-600 dark:text-slate-300 text-lg transition-colors">
-          Vragen over lidmaatschap? Neem contact met ons op via <a href="mailto:info@stokers.nl" className="text-yellow-600 dark:text-yellow-400 hover:underline">info@stokers.nl</a>
+          Vragen over lidmaatschap? Neem contact met ons op via <a href="mailto:cv.stokers@gmail.com" className="text-yellow-600 dark:text-yellow-400 hover:underline">cv.stokers@gmail.com</a>
         </p>
       </div>
 
