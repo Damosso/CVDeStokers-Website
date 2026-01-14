@@ -6,6 +6,6 @@ export default defineConfig({
   preview: {
     host: true,
     port: 4173,
-    allowedHosts: ['stokes.vlamnet.nl', 'cvdestokers.nl'],
+    allowedHosts: ['stokers.vlamnet.nl', 'cvdestokers.nl'],
   }
 })
