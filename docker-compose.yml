@@ -5,12 +5,12 @@ services:
     image: ghcr.io/damosso/cvdestokers-website:main
     container_name: cvdestokers-website
     ports:
-      - "3024:3000"
+      - "3024:4173"
     environment:
       - NODE_ENV=production
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      test: ["CMD", "curl", "-f", "http://localhost:4173"]
       interval: 30s
       timeout: 10s
       retries: 3
