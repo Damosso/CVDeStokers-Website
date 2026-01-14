@@ -14,7 +14,7 @@ const LidWordenSection: React.FC = () => {
             <h3 className="text-2xl font-bold text-yellow-300 mb-6">Word Lid van De Stokers</h3>
             
             <p className="text-white mb-6 leading-relaxed text-lg">
-              Lid worden van C.V. De Stokers is keisimpel! Vul het formulier in en vur slechts <span className="font-bold text-yellow-300">€11,11</span> per half jaar bende deel van de leukste carnavalsvereniging van Sint-Oedenrode!
+              Lid worden van C.V. De Stokers is keisimpel! Vul het formulier in en wordt deel van de leukste carnavalsvereniging van Sint-Oedenrode!
             </p>
             
             <ul className="space-y-4 text-white font-medium mb-8">
@@ -91,12 +91,12 @@ const LidWordenSection: React.FC = () => {
                 />
               </div>
 
-              <button 
-                type="submit" 
-                className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded-xl shadow-lg transform active:scale-95 transition-all text-lg"
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfFOcHmNoZzS2kttv96Y1QKOsAUPleAZ4tgsyufee8Wmw6HrQ/viewform"
+                className="w-full inline-flex justify-center items-center bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded-xl shadow-lg transform active:scale-95 transition-all text-lg"
               >
-                Aanmelden voor €11,11
-              </button>
+                Aanmelden
+              </a>
             </form>
           </div>
         </div>

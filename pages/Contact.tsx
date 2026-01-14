@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           description="Volg ons op Instagram @Cv.destokers vur de leste nieuwtjes en foto's van onze avonturen. We posten regelmatig updates over onze activiteiten en evenementen."
           icon={Instagram}
           actionLabel="Volg ons op Instagram"
-          actionHref="https://instagram.com"
+          actionHref="https://www.instagram.com/cv.destokers/"
           isExternal={true}
           accentColor="green"
         />
