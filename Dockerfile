@@ -15,7 +15,7 @@ COPY . .
 RUN npm run build
 
 # Expose port (adjust if needed)
-EXPOSE 3000
+EXPOSE 4173
 
 # Start the application
-CMD ["node", ".output/server/index.mjs"]
+CMD ["npm", "start"]
